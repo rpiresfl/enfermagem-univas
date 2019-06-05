@@ -22,10 +22,19 @@
     margin: 25px;
 }
 
+/*.panel-title, .panel-group, .panel-default, .panel-heading, .panel-body {
+    background-color: darkcyan;
+    color: lightcyan;
+}*/
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
 
 .parallax {
