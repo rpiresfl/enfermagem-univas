@@ -1,3 +1,13 @@
+@media only screen and (max-width: 768px) {
+    #corpo-conteudo {
+        width: 95%;
+    }
+
+    .navbar .navbar-collapse, #head {
+        text-align: center;
+    }
+}
+
 #navbar_bottom_icon {
     height: 20px;
     width: 20px;
@@ -16,16 +26,13 @@
 
 #corpo-video {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #video {
-    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 55px;
 }
-
-/*.panel-title, .panel-group, .panel-default, .panel-heading, .panel-body {
-    background-color: darkcyan;
-    color: lightcyan;
-}*/
 
 .navbar-nav.navbar-center {
     position: absolute;
@@ -67,8 +74,9 @@ tr:hover {
     cursor: default;
 }
 
-h1, h2 {
-    text-align: center;
+#head {
+    text-align: left;
+    margin-left: 15px;
 }
 
 a:hover, a:visited, a:link, a:active {

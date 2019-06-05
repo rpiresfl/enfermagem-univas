@@ -34,7 +34,7 @@
         </nav>
 
         <div class="container" id="corpo-conteudo">
-            <h1>Sobre o curso</h1>
+            <h2 id="head">Sobre o curso</h2>
 
             <p> 
                 O curso de Enfermagem da Univás está no mercado há mais de 20 anos. Além da estrutura oferecida ao aluno, 
@@ -45,7 +45,7 @@
                     prevenção e recuperação de pacientes durante o seu aprendizado.
             </p>
 
-            <h1>Atuação Profissional</h1>
+            <h2 id="head">Atuação Profissional</h2>
 
             <p> O curso de Enfermagem da Univás agrega ao aluno a confiança e autonomia para atuar nessa profissão, 
                 que está entre as cinco primeiras em nível de empregabilidade no mercado de trabalho. 
@@ -58,9 +58,9 @@
             <div class="panel-group" id="accordion">
                 <!--COLLAPSE CORPO DOCENTE-->
                 <div class="panel panel-default">
-                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse-corpo-docente">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion-corpo-docente" href="#collapse-corpo-docente">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-corpo-docente">
+                            <a data-toggle="collapse" data-parent="#accordion-corpo-docente" href="#collapse-corpo-docente">
                                 Corpo Docente
                             </a>
                         </h4>
@@ -189,9 +189,9 @@
                 <!--FIM CORPO DOCENTE-->
                 <!--COLLAPSE GRADE CURRICULAR-->
                 <div class="panel panel-default">
-                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse-grade-curricular">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion-grade-curricular" href="#collapse-grade-curricular">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-grade-curricular">
+                            <a data-toggle="collapse" data-parent="#accordion-grade-curricular" href="#collapse-grade-curricular">
                                 Grade Curricular
                             </a>
                         </h4>
@@ -415,12 +415,14 @@
             </div>
             <!--FIM COLLAPSE PRINCIPAL-->
 
-            <h1>Vídeos</h1>
+            <h2 id="head">Vídeos</h2>
 
             <div id="corpo-video">
-                <div>
-                    <iframe id="video" width="512" height="288" src="https://www.youtube.com/embed/jerORtjh_KM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe id="video" width="512" height="288" src="https://www.youtube.com/embed/IW0HrdHuMNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive=item" width="512" height="288" src="https://www.youtube.com/embed/jerORtjh_KM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="video" class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive=item" id="video" width="512" height="288" src="https://www.youtube.com/embed/IW0HrdHuMNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
