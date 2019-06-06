@@ -6,6 +6,11 @@
     .navbar .navbar-collapse, #head {
         text-align: center;
     }
+
+    #video {
+        width: 304px;
+        height: 171px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -15,6 +20,11 @@
 
     #head {
         margin: 15px;
+    }
+
+    #video {
+        width: 512px;
+        height: 288px;
     }
 }
 
@@ -36,12 +46,8 @@
 
 #corpo-video {
     text-align: center;
-    margin-bottom: 25px;
-}
-
-#video {
-    margin-top: 15px;
-    margin-bottom: 55px;
+    padding-top: 15px;
+    margin-bottom: 60px;
 }
 
 .navbar-nav.navbar-center {
