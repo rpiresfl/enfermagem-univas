@@ -15,7 +15,8 @@
 
 @media only screen and (min-width: 768px) {
     #corpo-conteudo {
-        width: 80%;
+        /*width: 80%;*/
+        width: 73.35%;
     }
 
     #head {
@@ -26,6 +27,10 @@
         width: 512px;
         height: 288px;
     }
+}
+
+#head {
+    color: #2cbc59;
 }
 
 #navbar_bottom_icon {
@@ -42,12 +47,39 @@
     background-color: white;
     border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 75px;
 }
 
 #corpo-video {
     text-align: center;
     padding-top: 15px;
     margin-bottom: 60px;
+}
+
+#banner-enfermagem {
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+#teste {
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: #2cbc59;
+    border-color: #2cbc59;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #2cbc59;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
 }
 
 .navbar-nav.navbar-center {
@@ -60,6 +92,12 @@
     text-align: center;
 }
 
+.panel-default > .panel-heading {
+    color: white;
+    background-color: #2cbc59;
+    border-color: #2cbc59;
+}
+
 .parallax {
     background-image: url(../res/images/background.png);
     height: 100%;
@@ -69,13 +107,30 @@
     background-position: center;
 }
 
+.name {
+    display: block;
+}
+
+.subtext {
+    font-size: smaller;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
 html {
     overflow-y: scroll;
 }
 
 th, td {
     border-bottom: 1px solid grey;
-    padding: 7px;
+    padding: 5px;
 }
 
 tbody tr:hover {
@@ -92,4 +147,8 @@ tr:hover {
 
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
+}
+
+tr {
+    color: #2cbc59;
 }
